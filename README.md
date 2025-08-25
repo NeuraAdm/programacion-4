@@ -103,15 +103,15 @@ return (
 
 ### Estructura Principal del Componente
 
-![Estructura del Componente Counter](assets/counter-component.png)
+![Estructura del Componente Counter](screenshots/counter-component.png)
 
 ### Implementación de la Gestión de Estado
 
-![Gestión de Estado](assets/state-management.png)
+![Gestión de Estado](screenshots/state-management.png)
 
 ### Implementación de los Botones
 
-![Implementación de Botones](assets/button-implementation.png)
+![Implementación de Botones](screenshots/button-implementation.png)
 
 ## 🎨 Detalles de Estilo
 
