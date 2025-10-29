@@ -1,702 +1,802 @@
 export const products = [
-    {
-        "id": 94,
-        "name": "Matcha Green Tea Powder",
-        "price": 14.99,
-        "category": "Food - Beverages",
-        "stock": 77
-    },
-    {
-        "id": 63,
-        "name": "Cold Brew Coffee Concentrate",
-        "price": 7.99,
-        "category": "Food - Beverages",
-        "stock": 83
-    },
-    {
-        "id": 77,
-        "name": "Travel Organizer",
-        "price": 22.99,
-        "category": "Travel",
-        "stock": 69
-    },
-    {
-        "id": 23,
-        "name": "Casual Sneakers",
-        "price": 39.99,
-        "category": "Clothing - Footwear",
-        "stock": 19
-    },
-    {
-        "id": 20,
-        "name": "Savory Italian Herbs",
-        "price": 2.99,
-        "category": "Food - Spices",
-        "stock": 62
-    },
-    {
-        "id": 57,
-        "name": "Pet Grooming Scissors",
-        "price": 16.99,
-        "category": "Pets",
-        "stock": 17
-    },
-    {
-        "id": 32,
-        "name": "Creamy Tomato Basil Soup",
-        "price": 3.29,
-        "category": "Food - Canned Goods",
-        "stock": 73
-    },
-    {
-        "id": 83,
-        "name": "Balsamic Fig Dressing",
-        "price": 3.79,
-        "category": "Food - Condiments",
-        "stock": 79
-    },
-    {
-        "id": 32,
-        "name": "Organic Coconut Sugar",
-        "price": 4.19,
-        "category": "Food - Baking Goods",
-        "stock": 91
-    },
-    {
-        "id": 16,
-        "name": "Cranberry Orange Juice",
-        "price": 2.49,
-        "category": "Food - Beverages",
-        "stock": 15
-    },
-    {
-        "id": 57,
-        "name": "Smartphone Hand Grip",
-        "price": 9.99,
-        "category": "Accessories",
-        "stock": 27
-    },
-    {
-        "id": 18,
-        "name": "Ribbed Knit Dress",
-        "price": 59.99,
-        "category": "Clothing - Dresses",
-        "stock": 83
-    },
-    {
-        "id": 26,
-        "name": "Microwave Popcorn Maker",
-        "price": 19.99,
-        "category": "Kitchen",
-        "stock": 27
-    },
-    {
-        "id": 46,
-        "name": "Fitness Jump Rope",
-        "price": 15.99,
-        "category": "Fitness",
-        "stock": 16
-    },
-    {
-        "id": 60,
-        "name": "Beef Enchilada Casserole",
-        "price": 8.99,
-        "category": "Food - Prepared Meals",
-        "stock": 35
-    },
-    {
-        "id": 38,
-        "name": "Honey Roasted Chickpeas",
-        "price": 3.29,
-        "category": "Food - Snacks",
-        "stock": 55
-    },
-    {
-        "id": 69,
-        "name": "Wireless HDMI Receiver",
-        "price": 49.99,
-        "category": "Electronics",
-        "stock": 77
-    },
-    {
-        "id": 30,
-        "name": "Action Camera",
-        "price": 199.99,
-        "category": "Electronics",
-        "stock": 8
-    },
-    {
-        "id": 92,
-        "name": "Savory Snack Mix",
-        "price": 4.49,
-        "category": "Food - Snacks",
-        "stock": 75
-    },
-    {
-        "id": 61,
-        "name": "Spicy Thai Chili Sauce",
-        "price": 3.29,
-        "category": "Food - Sauces",
-        "stock": 29
-    },
-    {
-        "id": 94,
-        "name": "Organic Green Lentils",
-        "price": 3.99,
-        "category": "Food - Grocery",
-        "stock": 39
-    },
-    {
-        "id": 8,
-        "name": "Samsung Galaxy Smartwatch",
-        "price": 249.99,
-        "category": "Wearable Tech",
-        "stock": 1
-    },
-    {
-        "id": 23,
-        "name": "Luxury Yoga Mat",
-        "price": 39.99,
-        "category": "Fitness",
-        "stock": 76
-    },
-    {
-        "id": 64,
-        "name": "Kids' Activity Book",
-        "price": 14.99,
-        "category": "Books",
-        "stock": 78
-    },
-    {
-        "id": 94,
-        "name": "Multi-Function Smartphone Holder",
-        "price": 12.99,
-        "category": "Electronics",
-        "stock": 93
-    },
-    {
-        "id": 75,
-        "name": "Decorative Throw Blanket",
-        "price": 39.99,
-        "category": "Home",
-        "stock": 41
-    },
-    {
-        "id": 99,
-        "name": "Honey Almond Granola Bars",
-        "price": 3.99,
-        "category": "Food - Snacks",
-        "stock": 59
-    },
-    {
-        "id": 73,
-        "name": "Vegetable Stock",
-        "price": 2.49,
-        "category": "Food - Cooking Essentials",
-        "stock": 43
-    },
-    {
-        "id": 82,
-        "name": "Pork Chops",
-        "price": 9.49,
-        "category": "Food - Meat",
-        "stock": 69
-    },
-    {
-        "id": 94,
-        "name": "Infrared Thermometer Gun",
-        "price": 29.99,
-        "category": "Health",
-        "stock": 56
-    },
-    {
-        "id": 87,
-        "name": "Portable Solar Camp Shower",
-        "price": 29.99,
-        "category": "Outdoor",
-        "stock": 74
-    },
-    {
-        "id": 38,
-        "name": "Pet Travel Bed",
-        "price": 26.99,
-        "category": "Pets",
-        "stock": 95
-    },
-    {
-        "id": 90,
-        "name": "Peanut Butter Protein Balls",
-        "price": 5.29,
-        "category": "Food - Snacks",
-        "stock": 81
-    },
-    {
-        "id": 24,
-        "name": "DIY Candle Kit",
-        "price": 34.99,
-        "category": "Crafts",
-        "stock": 66
-    },
-    {
-        "id": 22,
-        "name": "Maple Pecan Oatmeal Cookies",
-        "price": 3.99,
-        "category": "Food - Bakery",
-        "stock": 61
-    },
-    {
-        "id": 53,
-        "name": "Vegan Mac & Cheese",
-        "price": 8.99,
-        "category": "Food - Frozen",
-        "stock": 61
-    },
-    {
-        "id": 11,
-        "name": "Heavy Duty Gardening Tool Set",
-        "price": 49.99,
-        "category": "Garden",
-        "stock": 82
-    },
-    {
-        "id": 75,
-        "name": "Smartphone Car Mount with Wireless Charging",
-        "price": 39.99,
-        "category": "Automotive",
-        "stock": 25
-    },
-    {
-        "id": 97,
-        "name": "Sriracha Honey Glaze",
-        "price": 3.59,
-        "category": "Food - Sauces",
-        "stock": 58
-    },
-    {
-        "id": 27,
-        "name": "Cinnamon Sugar Tortilla Chips",
-        "price": 3.29,
-        "category": "Food - Snacks",
-        "stock": 92
-    },
-    {
-        "id": 38,
-        "name": "Garlic and Herb Cream Cheese",
-        "price": 3.49,
-        "category": "Food - Dairy",
-        "stock": 34
-    },
-    {
-        "id": 78,
-        "name": "Silicone Cooking Utensils Set",
-        "price": 34.99,
-        "category": "Kitchen",
-        "stock": 24
-    },
-    {
-        "id": 54,
-        "name": "Banana Nut Oatmeal Cups",
-        "price": 2.99,
-        "category": "Food - Breakfast",
-        "stock": 19
-    },
-    {
-        "id": 66,
-        "name": "Outdoor Adventure Kit",
-        "price": 89.99,
-        "category": "Outdoor",
-        "stock": 46
-    },
-    {
-        "id": 86,
-        "name": "Oven-Baked Cheese Crisps",
-        "price": 3.99,
-        "category": "Food - Snacks",
-        "stock": 29
-    },
-    {
-        "id": 68,
-        "name": "Vegan Protein Powder",
-        "price": 34.99,
-        "category": "Health",
-        "stock": 4
-    },
-    {
-        "id": 39,
-        "name": "Athletic Compression Tights",
-        "price": 39.99,
-        "category": "Clothing - Activewear",
-        "stock": 64
-    },
-    {
-        "id": 95,
-        "name": "Mini Food Processor",
-        "price": 39.99,
-        "category": "Kitchen",
-        "stock": 48
-    },
-    {
-        "id": 49,
-        "name": "Pumpkin Spice Granola",
-        "price": 4.99,
-        "category": "Food - Breakfast",
-        "stock": 63
-    },
-    {
-        "id": 73,
-        "name": "Electric Pressure Washer",
-        "price": 199.99,
-        "category": "Home Improvement",
-        "stock": 45
-    },
-    {
-        "id": 45,
-        "name": "Roasted Chickpeas",
-        "price": 2.99,
-        "category": "Food - Snacks",
-        "stock": 52
-    },
-    {
-        "id": 75,
-        "name": "Organic Almonds",
-        "price": 8.99,
-        "category": "Food - Nuts",
-        "stock": 39
-    },
-    {
-        "id": 99,
-        "name": "Lentils",
-        "price": 2.99,
-        "category": "Food - Grains",
-        "stock": 92
-    },
-    {
-        "id": 42,
-        "name": "Adjustable Pedicure Footrest",
-        "price": 39.99,
-        "category": "Beauty",
-        "stock": 75
-    },
-    {
-        "id": 24,
-        "name": "Pasta Salad Kit",
-        "price": 5.99,
-        "category": "Food - Prepared Foods",
-        "stock": 97
-    },
-    {
-        "id": 47,
-        "name": "Board Game",
-        "price": 34.99,
-        "category": "Toys",
-        "stock": 22
-    },
-    {
-        "id": 83,
-        "name": "Travel Mug with Leak-Proof Lid",
-        "price": 24.99,
-        "category": "Kitchen",
-        "stock": 67
-    },
-    {
-        "id": 76,
-        "name": "First Aid Kit",
-        "price": 29.99,
-        "category": "Health",
-        "stock": 88
-    },
-    {
-        "id": 20,
-        "name": "Thai Peanut Dressing",
-        "price": 3.29,
-        "category": "Food - Condiments",
-        "stock": 10
-    },
-    {
-        "id": 52,
-        "name": "Almond Flour Pizza Crust",
-        "price": 7.99,
-        "category": "Food - Frozen Foods",
-        "stock": 80
-    },
-    {
-        "id": 96,
-        "name": "Waffle Maker",
-        "price": 39.99,
-        "category": "Kitchen",
-        "stock": 50
-    },
-    {
-        "id": 93,
-        "name": "Chia Seed Pudding Mix",
-        "price": 4.19,
-        "category": "Food - Breakfast",
-        "stock": 73
-    },
-    {
-        "id": 28,
-        "name": "Wrap Front Midi Skirt",
-        "price": 44.99,
-        "category": "Clothing - Bottoms",
-        "stock": 32
-    },
-    {
-        "id": 8,
-        "name": "Thai Green Curry Paste",
-        "price": 2.49,
-        "category": "Food - Sauces",
-        "stock": 57
-    },
-    {
-        "id": 64,
-        "name": "Wild Rice Pilaf",
-        "price": 3.79,
-        "category": "Food - Grains",
-        "stock": 10
-    },
-    {
-        "id": 50,
-        "name": "Instant Mashed Potatoes",
-        "price": 1.79,
-        "category": "Food - Sides",
-        "stock": 4
-    },
-    {
-        "id": 35,
-        "name": "Recipe Book Stand",
-        "price": 22.99,
-        "category": "Kitchen",
-        "stock": 4
-    },
-    {
-        "id": 66,
-        "name": "Plant Growing Kit",
-        "price": 22.99,
-        "category": "Garden",
-        "stock": 53
-    },
-    {
-        "id": 63,
-        "name": "Water Bottle with Built-in Fruit Infuser",
-        "price": 18.99,
-        "category": "Fitness",
-        "stock": 51
-    },
-    {
-        "id": 79,
-        "name": "Classic Pumps",
-        "price": 64.99,
-        "category": "Clothing - Footwear",
-        "stock": 33
-    },
-    {
-        "id": 67,
-        "name": "Cinnamon Apple Sauce",
-        "price": 2.49,
-        "category": "Food - Canned Goods",
-        "stock": 82
-    },
-    {
-        "id": 24,
-        "name": "Sporty Slide Sandals",
-        "price": 24.99,
-        "category": "Clothing - Footwear",
-        "stock": 93
-    },
-    {
-        "id": 11,
-        "name": "Brown Sugar",
-        "price": 1.79,
-        "category": "Food - Baking",
-        "stock": 20
-    },
-    {
-        "id": 95,
-        "name": "Frozen Berry Medley",
-        "price": 5.49,
-        "category": "Food - Frozen Foods",
-        "stock": 67
-    },
-    {
-        "id": 81,
-        "name": "Vegetarian Chili",
-        "price": 3.99,
-        "category": "Food - Canned Goods",
-        "stock": 18
-    },
-    {
-        "id": 32,
-        "name": "Instant Read Meat Thermometer",
-        "price": 24.99,
-        "category": "Kitchen",
-        "stock": 41
-    },
-    {
-        "id": 55,
-        "name": "LED Flashlight",
-        "price": 19.99,
-        "category": "Outdoor",
-        "stock": 41
-    },
-    {
-        "id": 92,
-        "name": "Blackberry Compote",
-        "price": 5.29,
-        "category": "Food - Condiments",
-        "stock": 35
-    },
-    {
-        "id": 70,
-        "name": "Fall-Themed Table Runner",
-        "price": 19.99,
-        "category": "Home",
-        "stock": 62
-    },
-    {
-        "id": 34,
-        "name": "Banana Peanut Butter Smoothie",
-        "price": 5.49,
-        "category": "Food - Frozen Foods",
-        "stock": 97
-    },
-    {
-        "id": 32,
-        "name": "V-Neck Sweater",
-        "price": 49.99,
-        "category": "Clothing - Tops",
-        "stock": 52
-    },
-    {
-        "id": 54,
-        "name": "Tea Infuser",
-        "price": 12.99,
-        "category": "Kitchen",
-        "stock": 81
-    },
-    {
-        "id": 77,
-        "name": "Insulated Cooler",
-        "price": 39.99,
-        "category": "Outdoor",
-        "stock": 69
-    },
-    {
-        "id": 8,
-        "name": "Avocado Lime Dressing",
-        "price": 4.29,
-        "category": "Food - Condiments",
-        "stock": 54
-    },
-    {
-        "id": 85,
-        "name": "Pumpkin Spice Cookies",
-        "price": 3.29,
-        "category": "Food - Bakery",
-        "stock": 3
-    },
-    {
-        "id": 79,
-        "name": "Dog Waste Bag Dispenser",
-        "price": 6.99,
-        "category": "Pets",
-        "stock": 18
-    },
-    {
-        "id": 87,
-        "name": "Rustic Italian Bread",
-        "price": 3.59,
-        "category": "Food - Bakery",
-        "stock": 69
-    },
-    {
-        "id": 38,
-        "name": "Tropical Fruit Bowl",
-        "price": 4.99,
-        "category": "Food - Snacks",
-        "stock": 97
-    },
-    {
-        "id": 33,
-        "name": "Compact Hair Dryer",
-        "price": 29.99,
-        "category": "Beauty",
-        "stock": 71
-    },
-    {
-        "id": 63,
-        "name": "Gaming Mousepad",
-        "price": 19.99,
-        "category": "Gaming",
-        "stock": 78
-    },
-    {
-        "id": 91,
-        "name": "Relaxed Fit Henley Shirt",
-        "price": 29.99,
-        "category": "Clothing - Tops",
-        "stock": 32
-    },
-    {
-        "id": 52,
-        "name": "Travel Orthopedic Pillow",
-        "price": 24.99,
-        "category": "Travel",
-        "stock": 64
-    },
-    {
-        "id": 73,
-        "name": "Lemon Lime Sparkling Water",
-        "price": 1.99,
-        "category": "Food - Beverages",
-        "stock": 38
-    },
-    {
-        "id": 49,
-        "name": "Fresh Strawberries",
-        "price": 3.99,
-        "category": "Food - Produce",
-        "stock": 77
-    },
-    {
-        "id": 100,
-        "name": "Chocolate Protein Powder",
-        "price": 24.99,
-        "category": "Food - Supplements",
-        "stock": 17
-    },
-    {
-        "id": 33,
-        "name": "Honey Lemon Tea",
-        "price": 3.29,
-        "category": "Food - Beverages",
-        "stock": 47
-    },
-    {
-        "id": 89,
-        "name": "Coffee Subscription Service",
-        "price": 29.99,
-        "category": "Food",
-        "stock": 29
-    },
-    {
-        "id": 28,
-        "name": "Puzzle Mat",
-        "price": 22.99,
-        "category": "Toys",
-        "stock": 17
-    },
-    {
-        "id": 53,
-        "name": "Sweet Potato & Kale Hash",
-        "price": 5.49,
-        "category": "Food - Prepared Foods",
-        "stock": 41
-    },
-    {
-        "id": 77,
-        "name": "Wild Rice & Quinoa Mix",
-        "price": 2.99,
-        "category": "Food - Grains",
-        "stock": 38
-    }
+  {
+    id: 1,
+    name: "magna at nunc commodo placerat praesent blandit nam nulla integer pede justo",
+    price: 22.89,
+    category: "Travel",
+    stock: 70,
+    image: "http://dummyimage.com/188x100.png/cc0000/ffffff",
+  },
+  {
+    id: 2,
+    name: "sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis",
+    price: 3.1,
+    category: "Clothing - Footwear",
+    stock: 42,
+    image: "http://dummyimage.com/167x100.png/cc0000/ffffff",
+  },
+  {
+    id: 3,
+    name: "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing",
+    price: 8.79,
+    category: "Food - Spices",
+    stock: 7,
+    image: "http://dummyimage.com/100x100.png/cc0000/ffffff",
+  },
+  {
+    id: 4,
+    name: "aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed",
+    price: 0.47,
+    category: "Food - Baking Goods",
+    stock: 41,
+    image: "http://dummyimage.com/146x100.png/ff4444/ffffff",
+  },
+  {
+    id: 5,
+    name: "ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat",
+    price: 5.59,
+    category: "Food - Beverages",
+    stock: 98,
+    image: "http://dummyimage.com/230x100.png/dddddd/000000",
+  },
+  {
+    id: 6,
+    name: "felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui",
+    price: 6.23,
+    category: "Food - Canned Goods",
+    stock: 67,
+    image: "http://dummyimage.com/116x100.png/cc0000/ffffff",
+  },
+  {
+    id: 7,
+    name: "fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat",
+    price: 10.89,
+    category: "Pets",
+    stock: 56,
+    image: "http://dummyimage.com/138x100.png/cc0000/ffffff",
+  },
+  {
+    id: 8,
+    name: "lorem ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius",
+    price: 37.52,
+    category: "Food - Baking Goods",
+    stock: 84,
+    image: "http://dummyimage.com/158x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 9,
+    name: "sed nisl nunc rhoncus dui vel sem sed sagittis nam",
+    price: 28.64,
+    category: "Clothing - Footwear",
+    stock: 44,
+    image: "http://dummyimage.com/248x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 10,
+    name: "vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non",
+    price: 39.0,
+    category: "Clothing - Footwear",
+    stock: 78,
+    image: "http://dummyimage.com/101x100.png/cc0000/ffffff",
+  },
+  {
+    id: 11,
+    name: "nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
+    price: 19.14,
+    category: "Travel",
+    stock: 12,
+    image: "http://dummyimage.com/246x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 12,
+    name: "nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at",
+    price: 8.44,
+    category: "Pets",
+    stock: 76,
+    image: "http://dummyimage.com/145x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 13,
+    name: "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a",
+    price: 11.72,
+    category: "Food - Spices",
+    stock: 96,
+    image: "http://dummyimage.com/225x100.png/cc0000/ffffff",
+  },
+  {
+    id: 14,
+    name: "purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend",
+    price: 12.12,
+    category: "Clothing - Footwear",
+    stock: 8,
+    image: "http://dummyimage.com/102x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 15,
+    name: "integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit",
+    price: 33.43,
+    category: "Travel",
+    stock: 48,
+    image: "http://dummyimage.com/121x100.png/dddddd/000000",
+  },
+  {
+    id: 16,
+    name: "placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus",
+    price: 31.83,
+    category: "Clothing - Footwear",
+    stock: 76,
+    image: "http://dummyimage.com/201x100.png/cc0000/ffffff",
+  },
+  {
+    id: 17,
+    name: "curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel",
+    price: 31.56,
+    category: "Food - Baking Goods",
+    stock: 5,
+    image: "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 18,
+    name: "tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat",
+    price: 6.97,
+    category: "Travel",
+    stock: 58,
+    image: "http://dummyimage.com/214x100.png/ff4444/ffffff",
+  },
+  {
+    id: 19,
+    name: "sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa",
+    price: 17.3,
+    category: "Food - Spices",
+    stock: 65,
+    image: "http://dummyimage.com/106x100.png/cc0000/ffffff",
+  },
+  {
+    id: 20,
+    name: "cursus id turpis integer aliquet massa id lobortis convallis tortor",
+    price: 21.89,
+    category: "Food - Condiments",
+    stock: 65,
+    image: "http://dummyimage.com/106x100.png/dddddd/000000",
+  },
+  {
+    id: 21,
+    name: "pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus",
+    price: 29.58,
+    category: "Clothing - Footwear",
+    stock: 61,
+    image: "http://dummyimage.com/130x100.png/dddddd/000000",
+  },
+  {
+    id: 22,
+    name: "volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut",
+    price: 9.03,
+    category: "Travel",
+    stock: 36,
+    image: "http://dummyimage.com/132x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 23,
+    name: "habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque",
+    price: 32.44,
+    category: "Travel",
+    stock: 77,
+    image: "http://dummyimage.com/234x100.png/cc0000/ffffff",
+  },
+  {
+    id: 24,
+    name: "ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
+    price: 23.38,
+    category: "Clothing - Footwear",
+    stock: 11,
+    image: "http://dummyimage.com/102x100.png/dddddd/000000",
+  },
+  {
+    id: 25,
+    name: "curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu",
+    price: 14.38,
+    category: "Clothing - Footwear",
+    stock: 74,
+    image: "http://dummyimage.com/185x100.png/dddddd/000000",
+  },
+  {
+    id: 26,
+    name: "lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla",
+    price: 25.57,
+    category: "Pets",
+    stock: 52,
+    image: "http://dummyimage.com/151x100.png/dddddd/000000",
+  },
+  {
+    id: 27,
+    name: "pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus",
+    price: 36.63,
+    category: "Travel",
+    stock: 2,
+    image: "http://dummyimage.com/130x100.png/ff4444/ffffff",
+  },
+  {
+    id: 28,
+    name: "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum",
+    price: 23.92,
+    category: "Food - Canned Goods",
+    stock: 69,
+    image: "http://dummyimage.com/202x100.png/cc0000/ffffff",
+  },
+  {
+    id: 29,
+    name: "elementum nullam varius nulla facilisi cras non velit nec nisi",
+    price: 1.36,
+    category: "Food - Spices",
+    stock: 21,
+    image: "http://dummyimage.com/128x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 30,
+    name: "non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar",
+    price: 29.64,
+    category: "Clothing - Footwear",
+    stock: 32,
+    image: "http://dummyimage.com/202x100.png/cc0000/ffffff",
+  },
+  {
+    id: 31,
+    name: "congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
+    price: 19.2,
+    category: "Food - Canned Goods",
+    stock: 41,
+    image: "http://dummyimage.com/154x100.png/cc0000/ffffff",
+  },
+  {
+    id: 32,
+    name: "id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci",
+    price: 7.39,
+    category: "Clothing - Footwear",
+    stock: 73,
+    image: "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 33,
+    name: "orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui",
+    price: 39.55,
+    category: "Food - Condiments",
+    stock: 43,
+    image: "http://dummyimage.com/189x100.png/ff4444/ffffff",
+  },
+  {
+    id: 34,
+    name: "ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est",
+    price: 9.67,
+    category: "Travel",
+    stock: 92,
+    image: "http://dummyimage.com/242x100.png/cc0000/ffffff",
+  },
+  {
+    id: 35,
+    name: "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in",
+    price: 9.58,
+    category: "Food - Canned Goods",
+    stock: 42,
+    image: "http://dummyimage.com/144x100.png/dddddd/000000",
+  },
+  {
+    id: 36,
+    name: "dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac",
+    price: 22.04,
+    category: "Food - Canned Goods",
+    stock: 56,
+    image: "http://dummyimage.com/183x100.png/dddddd/000000",
+  },
+  {
+    id: 37,
+    name: "ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy",
+    price: 6.44,
+    category: "Clothing - Footwear",
+    stock: 28,
+    image: "http://dummyimage.com/231x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 38,
+    name: "quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu",
+    price: 28.97,
+    category: "Travel",
+    stock: 80,
+    image: "http://dummyimage.com/177x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 39,
+    name: "nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere",
+    price: 34.62,
+    category: "Food - Canned Goods",
+    stock: 83,
+    image: "http://dummyimage.com/115x100.png/dddddd/000000",
+  },
+  {
+    id: 40,
+    name: "elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in",
+    price: 10.02,
+    category: "Travel",
+    stock: 84,
+    image: "http://dummyimage.com/137x100.png/ff4444/ffffff",
+  },
+  {
+    id: 41,
+    name: "nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris",
+    price: 22.2,
+    category: "Food - Spices",
+    stock: 7,
+    image: "http://dummyimage.com/133x100.png/dddddd/000000",
+  },
+  {
+    id: 42,
+    name: "laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis",
+    price: 5.73,
+    category: "Travel",
+    stock: 96,
+    image: "http://dummyimage.com/126x100.png/ff4444/ffffff",
+  },
+  {
+    id: 43,
+    name: "fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in",
+    price: 7.03,
+    category: "Food - Baking Goods",
+    stock: 13,
+    image: "http://dummyimage.com/246x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 44,
+    name: "arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst",
+    price: 20.45,
+    category: "Travel",
+    stock: 97,
+    image: "http://dummyimage.com/111x100.png/ff4444/ffffff",
+  },
+  {
+    id: 45,
+    name: "ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac",
+    price: 19.83,
+    category: "Food - Canned Goods",
+    stock: 64,
+    image: "http://dummyimage.com/208x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 46,
+    name: "platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur",
+    price: 29.15,
+    category: "Pets",
+    stock: 78,
+    image: "http://dummyimage.com/163x100.png/dddddd/000000",
+  },
+  {
+    id: 47,
+    name: "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum",
+    price: 32.71,
+    category: "Clothing - Footwear",
+    stock: 67,
+    image: "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 48,
+    name: "tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec",
+    price: 6.09,
+    category: "Pets",
+    stock: 57,
+    image: "http://dummyimage.com/158x100.png/ff4444/ffffff",
+  },
+  {
+    id: 49,
+    name: "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus",
+    price: 2.78,
+    category: "Pets",
+    stock: 21,
+    image: "http://dummyimage.com/220x100.png/ff4444/ffffff",
+  },
+  {
+    id: 50,
+    name: "tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea",
+    price: 17.08,
+    category: "Food - Baking Goods",
+    stock: 30,
+    image: "http://dummyimage.com/147x100.png/cc0000/ffffff",
+  },
+  {
+    id: 51,
+    name: "hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis",
+    price: 14.69,
+    category: "Food - Condiments",
+    stock: 69,
+    image: "http://dummyimage.com/219x100.png/ff4444/ffffff",
+  },
+  {
+    id: 52,
+    name: "sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus",
+    price: 32.98,
+    category: "Travel",
+    stock: 58,
+    image: "http://dummyimage.com/145x100.png/dddddd/000000",
+  },
+  {
+    id: 53,
+    name: "lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed",
+    price: 1.29,
+    category: "Food - Baking Goods",
+    stock: 1,
+    image: "http://dummyimage.com/146x100.png/dddddd/000000",
+  },
+  {
+    id: 54,
+    name: "eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla",
+    price: 25.66,
+    category: "Food - Baking Goods",
+    stock: 27,
+    image: "http://dummyimage.com/103x100.png/ff4444/ffffff",
+  },
+  {
+    id: 55,
+    name: "ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis",
+    price: 22.4,
+    category: "Food - Baking Goods",
+    stock: 81,
+    image: "http://dummyimage.com/115x100.png/cc0000/ffffff",
+  },
+  {
+    id: 56,
+    name: "condimentum curabitur in libero ut massa volutpat convallis morbi odio",
+    price: 30.51,
+    category: "Pets",
+    stock: 72,
+    image: "http://dummyimage.com/184x100.png/dddddd/000000",
+  },
+  {
+    id: 57,
+    name: "volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus",
+    price: 28.47,
+    category: "Food - Beverages",
+    stock: 3,
+    image: "http://dummyimage.com/124x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 58,
+    name: "vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
+    price: 31.44,
+    category: "Food - Canned Goods",
+    stock: 24,
+    image: "http://dummyimage.com/227x100.png/dddddd/000000",
+  },
+  {
+    id: 59,
+    name: "nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in",
+    price: 22.35,
+    category: "Food - Beverages",
+    stock: 53,
+    image: "http://dummyimage.com/118x100.png/cc0000/ffffff",
+  },
+  {
+    id: 60,
+    name: "leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu",
+    price: 13.27,
+    category: "Food - Canned Goods",
+    stock: 88,
+    image: "http://dummyimage.com/149x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 61,
+    name: "at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in",
+    price: 22.75,
+    category: "Food - Spices",
+    stock: 58,
+    image: "http://dummyimage.com/198x100.png/cc0000/ffffff",
+  },
+  {
+    id: 62,
+    name: "vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
+    price: 22.22,
+    category: "Pets",
+    stock: 64,
+    image: "http://dummyimage.com/117x100.png/ff4444/ffffff",
+  },
+  {
+    id: 63,
+    name: "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
+    price: 38.76,
+    category: "Travel",
+    stock: 76,
+    image: "http://dummyimage.com/212x100.png/dddddd/000000",
+  },
+  {
+    id: 64,
+    name: "in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu",
+    price: 8.8,
+    category: "Food - Spices",
+    stock: 62,
+    image: "http://dummyimage.com/135x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 65,
+    name: "amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
+    price: 39.09,
+    category: "Food - Beverages",
+    stock: 32,
+    image: "http://dummyimage.com/207x100.png/ff4444/ffffff",
+  },
+  {
+    id: 66,
+    name: "non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
+    price: 24.24,
+    category: "Travel",
+    stock: 77,
+    image: "http://dummyimage.com/243x100.png/cc0000/ffffff",
+  },
+  {
+    id: 67,
+    name: "a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut",
+    price: 8.61,
+    category: "Food - Baking Goods",
+    stock: 9,
+    image: "http://dummyimage.com/207x100.png/cc0000/ffffff",
+  },
+  {
+    id: 68,
+    name: "nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi",
+    price: 2.57,
+    category: "Food - Canned Goods",
+    stock: 8,
+    image: "http://dummyimage.com/159x100.png/dddddd/000000",
+  },
+  {
+    id: 69,
+    name: "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend",
+    price: 0.11,
+    category: "Food - Canned Goods",
+    stock: 33,
+    image: "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 70,
+    name: "dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non",
+    price: 6.47,
+    category: "Food - Beverages",
+    stock: 87,
+    image: "http://dummyimage.com/184x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 71,
+    name: "orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem",
+    price: 19.58,
+    category: "Food - Condiments",
+    stock: 56,
+    image: "http://dummyimage.com/190x100.png/dddddd/000000",
+  },
+  {
+    id: 72,
+    name: "turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed",
+    price: 26.37,
+    category: "Pets",
+    stock: 69,
+    image: "http://dummyimage.com/117x100.png/dddddd/000000",
+  },
+  {
+    id: 73,
+    name: "tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra",
+    price: 12.96,
+    category: "Food - Canned Goods",
+    stock: 51,
+    image: "http://dummyimage.com/199x100.png/dddddd/000000",
+  },
+  {
+    id: 74,
+    name: "eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut",
+    price: 36.11,
+    category: "Travel",
+    stock: 20,
+    image: "http://dummyimage.com/181x100.png/cc0000/ffffff",
+  },
+  {
+    id: 75,
+    name: "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    price: 12.17,
+    category: "Food - Baking Goods",
+    stock: 85,
+    image: "http://dummyimage.com/135x100.png/dddddd/000000",
+  },
+  {
+    id: 76,
+    name: "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam",
+    price: 12.81,
+    category: "Food - Spices",
+    stock: 68,
+    image: "http://dummyimage.com/163x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 77,
+    name: "tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
+    price: 21.03,
+    category: "Food - Spices",
+    stock: 70,
+    image: "http://dummyimage.com/189x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 78,
+    name: "et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut",
+    price: 21.19,
+    category: "Travel",
+    stock: 66,
+    image: "http://dummyimage.com/218x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 79,
+    name: "nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque",
+    price: 37.57,
+    category: "Clothing - Footwear",
+    stock: 65,
+    image: "http://dummyimage.com/170x100.png/ff4444/ffffff",
+  },
+  {
+    id: 80,
+    name: "aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed",
+    price: 28.47,
+    category: "Travel",
+    stock: 40,
+    image: "http://dummyimage.com/190x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 81,
+    name: "lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non",
+    price: 4.18,
+    category: "Food - Beverages",
+    stock: 61,
+    image: "http://dummyimage.com/217x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 82,
+    name: "justo in hac habitasse platea dictumst etiam faucibus cursus urna",
+    price: 24.74,
+    category: "Food - Beverages",
+    stock: 9,
+    image: "http://dummyimage.com/229x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 83,
+    name: "metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
+    price: 15.32,
+    category: "Food - Canned Goods",
+    stock: 14,
+    image: "http://dummyimage.com/212x100.png/dddddd/000000",
+  },
+  {
+    id: 84,
+    name: "duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce",
+    price: 11.91,
+    category: "Food - Spices",
+    stock: 57,
+    image: "http://dummyimage.com/153x100.png/dddddd/000000",
+  },
+  {
+    id: 85,
+    name: "ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia",
+    price: 28.74,
+    category: "Food - Beverages",
+    stock: 74,
+    image: "http://dummyimage.com/181x100.png/cc0000/ffffff",
+  },
+  {
+    id: 86,
+    name: "massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt",
+    price: 10.08,
+    category: "Food - Spices",
+    stock: 13,
+    image: "http://dummyimage.com/219x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 87,
+    name: "elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec",
+    price: 4.65,
+    category: "Travel",
+    stock: 73,
+    image: "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 88,
+    name: "aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus",
+    price: 33.4,
+    category: "Food - Baking Goods",
+    stock: 64,
+    image: "http://dummyimage.com/103x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 89,
+    name: "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam",
+    price: 35.82,
+    category: "Food - Beverages",
+    stock: 32,
+    image: "http://dummyimage.com/214x100.png/ff4444/ffffff",
+  },
+  {
+    id: 90,
+    name: "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis",
+    price: 10.84,
+    category: "Food - Spices",
+    stock: 10,
+    image: "http://dummyimage.com/123x100.png/cc0000/ffffff",
+  },
+  {
+    id: 91,
+    name: "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci",
+    price: 34.11,
+    category: "Food - Beverages",
+    stock: 93,
+    image: "http://dummyimage.com/212x100.png/cc0000/ffffff",
+  },
+  {
+    id: 92,
+    name: "in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti",
+    price: 13.85,
+    category: "Food - Beverages",
+    stock: 18,
+    image: "http://dummyimage.com/181x100.png/cc0000/ffffff",
+  },
+  {
+    id: 93,
+    name: "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla",
+    price: 37.63,
+    category: "Food - Spices",
+    stock: 16,
+    image: "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 94,
+    name: "ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna",
+    price: 32.16,
+    category: "Food - Baking Goods",
+    stock: 46,
+    image: "http://dummyimage.com/161x100.png/dddddd/000000",
+  },
+  {
+    id: 95,
+    name: "lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt",
+    price: 16.91,
+    category: "Food - Baking Goods",
+    stock: 74,
+    image: "http://dummyimage.com/172x100.png/ff4444/ffffff",
+  },
+  {
+    id: 96,
+    name: "pretium quis lectus suspendisse potenti in eleifend quam a odio in",
+    price: 39.8,
+    category: "Food - Beverages",
+    stock: 80,
+    image: "http://dummyimage.com/184x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 97,
+    name: "sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque",
+    price: 20.98,
+    category: "Pets",
+    stock: 3,
+    image: "http://dummyimage.com/171x100.png/cc0000/ffffff",
+  },
+  {
+    id: 98,
+    name: "sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum",
+    price: 15.0,
+    category: "Food - Canned Goods",
+    stock: 49,
+    image: "http://dummyimage.com/125x100.png/ff4444/ffffff",
+  },
+  {
+    id: 99,
+    name: "mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa",
+    price: 31.08,
+    category: "Food - Condiments",
+    stock: 70,
+    image: "http://dummyimage.com/168x100.png/5fa2dd/ffffff",
+  },
+  {
+    id: 100,
+    name: "amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus",
+    price: 37.8,
+    category: "Food - Condiments",
+    stock: 8,
+    image: "http://dummyimage.com/185x100.png/5fa2dd/ffffff",
+  },
 ];

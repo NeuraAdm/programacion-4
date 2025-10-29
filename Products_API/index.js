@@ -33,7 +33,6 @@ app.get('/products', (req, res) => {
 app.get('/products/:id', (req, res) => {
     const { id } = req.params;
     const product = products.find((product) => product.id === parseInt(id));
-
     if (!product) {
         return res.status(404).json({
             message: "Producto No Encontrado",
@@ -41,6 +40,24 @@ app.get('/products/:id', (req, res) => {
             status: "error"
         });
     }
+    res.json({
+        message: "Producto",
+        timestamp: new Date().toISOString(),
+        status: "success",
+        product: product
+    });
+});
+
+app.post('/products', (req, res) => {
+    const {name, price, category, stock, image} = req.body;
+    const product = {id: products.length + 1, name, price, category, stock, image};
+    products.push(product);
+    res.json({
+        message: 'Producto Creado',
+        timestamp: new Date().toISOString(),
+        status: 'success',
+        product: product
+    });
 });
 
 app.listen(port, () => {
