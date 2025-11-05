@@ -1,3 +1,7 @@
+const register = async (req, res) => {
+    
+}
+
 const login = async (req, res) => {
     try { 
         res.json({
@@ -16,4 +20,5 @@ const login = async (req, res) => {
 
 module.exports = {
     login,
+    register
 };
